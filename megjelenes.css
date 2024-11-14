@@ -30,9 +30,20 @@ nav>a{
     padding: 10px;
 }
 
+#bal>section>h2{
+    color: rgb(10, 130, 95);
+}
+
+#bal>section{
+    
+}
+
 #bal{
     grid-area: bt;
-    margin-left: 10px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(218, 218, 218);
 }
 
 #jobb{
